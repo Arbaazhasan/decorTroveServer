@@ -71,7 +71,7 @@ export const paymentVerification = async (req, res) => {
 export const razorpay_API_Key = (req, res) => {
     res.status(200).json({
         success: true,
-        key: process.env.Razorpay_Key_Id
+        key: "rzp_test_b8U50api1N1vw5"
     });
 };
 
